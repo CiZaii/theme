@@ -1,0 +1,30 @@
+<div class="card h-60 md:h-72 w-full p-4 md:p-5 bg-base-100 dark:border-2 dark:border-base-content/5 shadow-sm hidden md:block md:col-span-2">
+    <div class="flex items-center justify-between card-title">
+        <label class="flex items-center font-normal text-sm text-left">
+            <!--@formatter:off-->
+            {{ partial "utils/icon" (dict "name" "lucide-flag" "class" "inline-block stroke-current h-4 w-4 md:h-5 md:w-5 mr-2") }}
+            <!--@formatter:on-->
+            Recommend
+        </label>
+    </div>
+    <div class="card-body w-full h-56 px-0 lg:px-2 pt-4 overflow-scroll">
+        <div class="overflow-x-hidden overflow-y-scroll">
+            <table class="table">
+                <tbody>
+                {{ if .Site.Data.recommend }}
+                    {{ $styles := slice "neutral" "primary" "secondary" "accent" "ghost" }}
+                    {{ range $index, $item := .Site.Data.recommend }}
+                        {{ $style := index $styles (mod $index 5) }}
+                        <tr>
+                            <td class="flex px-0" title="{{ $item.name }}">
+                                <div class="badge badge-{{ $style }} rounded-full mr-2">{{ add $index 1 }}</div>
+                                <a class="truncate" href="{{ $item.url | safeURL }}" target="_blank">{{ $item.name }}</a>
+                            </td>
+                        </tr>
+                    {{ end }}
+                {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

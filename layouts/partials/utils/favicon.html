@@ -1,0 +1,16 @@
+<!-- 网址导航 favicon 图片获取 -->
+<!-- 
+    1. 如果传入 favicon 则直接使用传入的 favicon
+    2. 如果传入 link 则通过 https://favicon.im/ 自动获取 link 的 favicon
+ -->
+
+{{ $link := .link }}
+{{ $favicon := .favicon }}
+{{ $class := .class }}
+{{ $alt := .alt }}
+
+{{ if and $favicon (ne $favicon "") }}
+    {{ partial "utils/img" (dict "path" $favicon "favicon" false "class" $class "alt" $alt) }}
+{{ else }}
+    {{ partial "utils/img" (dict "path" $link "favicon" true "class" $class "alt" $alt) }}
+{{ end }}

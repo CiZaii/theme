@@ -1,0 +1,13 @@
+# --- 此处定义推荐内容 ---
+# name: 推荐内容名称
+# url: 推荐内容链接
+---
+
+- name: Build and ship software on a single, collaborative platform
+  url: "https://github.com/"
+
+- name: Your complete platform for the web.
+  url: "https://vercel.com/"
+
+- name: Rapidly build modern websites without ever leaving your HTML.
+  url: "https://tailwindcss.com/"

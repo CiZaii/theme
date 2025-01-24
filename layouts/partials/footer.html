@@ -1,0 +1,40 @@
+<footer class="footer footer-center text-base-content/80 py-5">
+    <aside class="">
+        <div class="flex flex-col items-center justify-center mb-4">
+            <!--@formatter:off-->
+            {{ partial "utils/img" (dict "path" .Site.Params.favicon "class" "h-12 w-12") }}
+            <!--@formatter:on-->
+        </div>
+
+
+        <div class="prose prose-sm">
+            {{ if .Site.Params.SiteDesc }}
+            <p class="flex justify-center text-lg px-8">
+                <!--@formatter:off-->
+                {{ partial "utils/icon" (dict "name" "lucide-quote" "class" "transform scale-x-[-1] h-4 w-4 mr-1") }}
+                <!--@formatter:on-->
+                {{ if .Site.Params.Hitokoto.enable }}
+                <span class="text-center hitokoto skeleton w-full" data-category='{{ delimit .Site.Params.Hitokoto.category "," }}'></span>
+                {{ else }}
+                <span class="text-center">{{ .Site.Params.SiteDesc }}</span>
+                {{ end }}
+            </p>
+            {{ end }}
+
+            <p>© <time>{{ now.Format "2006" }}</time> {{ .Site.Params.SiteName | default "ITEM" }}.
+                {{ range .Site.Params.footer }}
+                {{ if .name }}
+                    {{ if .url }}
+                    <a href="{{ .url | relURL }}" target="{{ .target | default "_self" }}">{{ .name }}. </a>
+                    {{ else }}
+                        {{ .name }}
+                    {{ end }}
+                {{ else}}
+                    <br>
+                {{ end }}
+                {{ end }}
+            </p>
+        </div>
+
+    </aside>
+</footer>

@@ -1,0 +1,64 @@
+# --- 此处定义所有分类 ---
+# 键名: 分类唯一标识，不能重复
+# icon: 分类图标，支持svg代码、hugo-icons图标名、资源文件
+# display: 分类显示名称，可以重复，为空将使用键名
+# background: 背景色，支持css颜色值，如 #fff, #000, red 等
+
+# ! 在文章中，categories 字段需要使用分类唯一标识
+---
+Stream:
+  icon: lucide-clapperboard
+  display: 
+  background: "linear-gradient(45deg, #e6eeff, #b3c6ff)"
+
+Short:
+  icon: lucide-zap
+  display: 
+
+Live:
+  icon: lucide-webcam
+  display: 
+
+Music:
+  icon: lucide-audio-lines
+  display: 
+
+Podcast:
+  icon: lucide-podcast
+  display: 
+
+Radio:
+  icon: lucide-cassette-tape
+  display: 
+
+OnlineGame:
+  icon: fas-hand-back-fist
+  display: Online
+
+GameCommunity:
+  icon: fas-chess-rook
+  display: Community
+
+WindowsSoftware:
+  icon: fab-windows
+  display: Windows
+
+MacSoftware:
+  icon: lucide-apple
+  display: Mac
+
+AndroidSoftware:
+  icon: fas-mobile
+  display: Android
+
+Frontend:
+  icon: lucide-code
+  display: 
+
+Backend:
+  icon: lucide-server
+  display: 
+
+DevOps:
+  icon: lucide-terminal
+  display: 

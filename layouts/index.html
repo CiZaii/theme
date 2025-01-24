@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <main class="flex-1 p-4 overflow-y-scroll">
+
+        {{- partial "component/head" . -}}
+
+        {{- partial "component/search" . -}}
+
+        {{ range $menu := .Site.Data.menu }}
+            {{ if $menu.children }}
+                {{ range $child := $menu.children }}
+                    {{- partial "component/nav-block" (dict "menu" $child) -}}
+                {{ end }}
+            {{ else }}
+                {{- partial "component/nav-block" (dict "menu" $menu) -}}
+            {{ end }}
+        {{ end }}
+    </main>
+    {{- partial "component/scrolltop" -}}
+{{ end }}
