@@ -1,10 +1,10 @@
 theme: "hugo-theme-item"
 languageCode: "zh-CN"
 baseurl: "https://item-hugo.fordes.dev/"
-title: "ITEM-hugo"
+title: "ZangZang"
 
-author: "fordes123"
-copyright: "Copyright ©2024, fordes123, all rights reserved."
+author: "zangzang"
+copyright: "Copyright ©2024, zangzang, all rights reserved."
 
 params:
 
@@ -13,10 +13,10 @@ params:
   logo: ""
 
   # 默认主题模式，可选 dark light default
-  themePreset: default
+  themePreset: light
 
   # 站点基本信息
-  siteName: "ITEM"
+  siteName: "臧臧的导航站"
   siteDesc: "The journey of self-cultivation is always solitary, as wisdom inevitably arises from solitude."
   author: "zangzang"
 
@@ -35,12 +35,12 @@ params:
 
     - name: Github
       icon: lucide-github
-      url: "https://github.com/fordes123/hugo-theme-item"
+      url: "https://github.com/CiZaii"
       target: "_blank" # default "_self"
 
   footer:
     - name: This is Link
-      url: "https://github.com/fordes123/hugo-theme-item"
+      url: "https://github.com/CiZaii"
       target: "_blank" # default "_self"
     
     # 换行
