@@ -15,17 +15,27 @@
   url: https://vercel.com
   background: "linear-gradient(45deg, #b5b4ff, #7675f9)"
 
-- name: Hugo
-  icon: lucide-flask-conical
-  url: https://hugo.gohugo.io
+- name: JsonX
+  icon: lucide-file-json-2
+  url: https://www.jsont.run/
   background: "linear-gradient(120deg, #ffd495, #ffa31b)"
 
-- name: TailwindCSS
-  icon: fas-infinity
-  url: https://tailwindcss.com
+- name: 闪念
+  icon: lucide-notebook-pen
+  url: https://notes.wl.do/signin
   background: "linear-gradient(120deg, #663d74, #dcc7e1)"
 
-- name: DaisyUI
-  icon: <svg viewBox="0 0 415 415" xmlns="http://www.w3.org/2000/svg"><rect x="82.5" y="290" width="250" height="125" rx="62.5" fill="#1AD1A5"></rect><circle cx="207.5" cy="135" r="130" fill="black" fill-opacity=".3"></circle><circle cx="207.5" cy="135" r="125" fill="white"></circle><circle cx="207.5" cy="135" r="56" fill="#FF9903"></circle></svg>
-  url: https://daisyui.com
+- name: 妙蛙工具
+  icon: lucide-swords
+  url: https://www.iamwawa.cn/
   background: "linear-gradient(45deg, #e6ffe6, #b3ffb3)"
+
+- name: 文件分享
+  icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM216 408c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-102.1-31 31c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l72-72c9.4-9.4 24.6-9.4 33.9 0l72 72c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-31-31L216 408z"/></svg>
+  url: https://wormhole.app/
+  background: "linear-gradient(45deg, #e6eff, #b3c6ff)"
+
+- name: markdown
+  icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M593.8 59.1H46.2C20.7 59.1 0 79.8 0 105.2v301.5c0 25.5 20.7 46.2 46.2 46.2h547.7c25.5 0 46.2-20.7 46.1-46.1V105.2c0-25.4-20.7-46.1-46.2-46.1zM338.5 360.6H277v-120l-61.5 76.9-61.5-76.9v120H92.3V151.4h61.5l61.5 76.9 61.5-76.9h61.5v209.2zm135.3 3.1L381.5 256H443V151.4h61.5V256H566z"/></svg>
+  url: https://marktion.io/
+  background: "linear-gradient(45deg, #e6eff, #b3c6ff)"

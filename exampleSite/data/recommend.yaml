@@ -3,11 +3,9 @@
 # url: 推荐内容链接
 ---
 
-- name: Build and ship software on a single, collaborative platform
+- name: 全球最大的同性交友网站
   url: "https://github.com/"
 
-- name: Your complete platform for the web.
-  url: "https://vercel.com/"
+- name: 影迷窝 一个在线看剧的网站 使用LinuxDO统一登录
+  url: "https://yingmiwo.me/index"
 
-- name: Rapidly build modern websites without ever leaving your HTML.
-  url: "https://tailwindcss.com/"

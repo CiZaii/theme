@@ -3,13 +3,9 @@
 # icon: 搜索引擎图标，支持svg代码、hugo-icons图标名、资源文件
 # url: 搜索引擎链接，%s 为搜索关键词占位符
 ---
-- name: Google
+- name: AI
   icon: fab-google
-  url: https://www.google.com/search?q=%s
-
-- name: Wikipedia
-  icon: fab-wikipedia-w
-  url: https://www.wikipedia.org/w/index.php?search=%s
+  url: https://search.wl.do/search.html?s=%s
 
 - name: Github
   icon: fab-github
