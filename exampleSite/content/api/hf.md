@@ -5,7 +5,7 @@ draft: false
 
 link: "https://huggingface.co/zangaaa"
 tags: ["api"]
-categories: ["编程常用"]
+categories: ["api"]
 description: HuggingFace
 
 
